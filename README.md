@@ -39,7 +39,16 @@ Método HTTP **POST** para criação de novos pontos de coleta e armazenamento n
 http://localhost:3333/points (POST)
 ```
 
+## Como testar
 
+Faça o download ou clonagem do repositório no seu computador.
+Navegue até o diretório da pasta do projeto e escreva:
+```
+npm run dev
+```
+É necessário ter o [Node.js](https://nodejs.org/en/) no seu computador.
+Agora, você pode acessar as requisições GET no seu navegador a partir da porta *localhost:3333*.
+Para testar a requisição POST, use o [Postman](https://www.postman.com/) ou [Insomnia](https://insomnia.rest/).
 
 
 
