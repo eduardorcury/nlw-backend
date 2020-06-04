@@ -13,7 +13,31 @@ Frontend disponível nesse [repositório.](https://github.com/eduardorcury/nlw-f
 
 ## Funcionalidades da API
 
-###
+### GET
+
+Método HTTP **GET** para retorno dos items armazenados no banco de dados em formato JSON:
+```
+http://localhost:3333/items
+```
+Método HTTP **GET** para retorno dos pontos de coleta:
+```
+http://localhost:3333/points
+```
+Retorno de ponto de coleta por id:
+```
+http://localhost:3333/points/{id}
+```
+Retorno de ponto filtrados por query:
+```
+http://localhost:3333/points?city=Dourados&uf=MS&items=6 (EXEMPLO)
+```
+
+### POST
+
+Método HTTP **POST** para criação de novos pontos de coleta e armazenamento no SQLite:
+```
+http://localhost:3333/points (POST)
+```
 
 
 
