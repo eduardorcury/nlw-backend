@@ -1,4 +1,5 @@
 import { Request, Response } from 'express';
+import { celebrate, Joi } from 'celebrate';
 import knex from '../database/connection';
 
 class PointsController {
