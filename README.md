@@ -1,6 +1,6 @@
 # Backend do web-app Ecoleta
 
-RESTful API da aplicação web Ecoleta, que tem como objetivo registrar pontos de coleta de materiais recicláveis, desenvolvido na Next Level Week.
+> RESTful API da aplicação web Ecoleta, que tem como objetivo registrar pontos de coleta de materiais recicláveis, desenvolvido na Next Level Week.
 Frontend disponível nesse [repositório.](https://github.com/eduardorcury/nlw-frontend) Agradecimentos à equipe da Rocketseat pelo conteúdo excelente.
 
 ## Ferramentas
