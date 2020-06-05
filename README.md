@@ -5,11 +5,11 @@ Frontend disponível nesse [repositório.](https://github.com/eduardorcury/nlw-f
 
 ## Ferramentas
 
-- [Node.js](https://nodejs.org/en/)
-- [Typescript](https://www.typescriptlang.org/)
-- Definição de rotas de acordo com o protocolo HTTP com [Express](https://expressjs.com/pt-br/)
-- Banco de dados com [SQLite](https://www.sqlite.org/index.html)
-- Ferramenta auxiliar [knex](http://knexjs.org/) para criação de SQL queries
+- [Node.js](https://nodejs.org/en/).
+- [Typescript](https://github.com/Microsoft/TypeScript).
+- Definição de rotas de acordo com o protocolo HTTP com [Express](https://github.com/expressjs/express).
+- Banco de dados com [SQLite](https://www.sqlite.org/index.html).
+- Ferramenta auxiliar [knex](https://github.com/knex/knex) para criação de SQL queries.
 
 ## Funcionalidades da API
 
@@ -42,13 +42,19 @@ http://localhost:3333/points (POST)
 ## Como testar
 
 Faça o download ou clonagem do repositório no seu computador.
-Navegue até o diretório da pasta do projeto e escreva:
+Navegue até a pasta do projeto, abra o terminal e instale a pasta de dependências com o comando:
+```
+npm install
+```
+Em seguida, inicie o servidor com o comando:
 ```
 npm run dev
 ```
 É necessário ter o [Node.js](https://nodejs.org/en/) no seu computador.
 Agora, você pode acessar as requisições GET no seu navegador a partir da porta *localhost:3333*.
 Para testar a requisição POST, use o [Postman](https://www.postman.com/) ou [Insomnia](https://insomnia.rest/).
+
+#### Para obter a interface do usuário, siga as instruções no [repositório do Frontend](https://github.com/eduardorcury/nlw-frontend).
 
 
 
